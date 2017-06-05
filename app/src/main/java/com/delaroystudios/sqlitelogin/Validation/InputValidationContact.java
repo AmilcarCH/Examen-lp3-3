@@ -1,4 +1,4 @@
-package com.delaroystudios.sqlitelogin.helper;
+package com.delaroystudios.sqlitelogin.Validation;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,13 +10,14 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
 /**
- * Created by delaroy on 3/27/17.
+ * Created by intel on 5/06/2017.
  */
-public class InputValidation {
+
+public class InputValidationContact {
 
     private Context context;
 
-    public InputValidation(Context context){
+    public InputValidationContact(Context context){
         this.context = context;
     }
 

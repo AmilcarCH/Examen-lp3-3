@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import com.delaroystudios.sqlitelogin.bean.User;
+import com.delaroystudios.sqlitelogin.util.Commons;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +19,7 @@ public class UserDAO extends SQLiteOpenHelper{
 
     private static final int DATABASE_VERSION = 1;
 
-    private static final String DATABASE_NAME = "UserManager.db";
+
 
     private static final String TABLE_USER = "user";
 
@@ -34,7 +35,7 @@ public class UserDAO extends SQLiteOpenHelper{
     private String DROP_USER_TABLE = "DROP TABLE IF EXISTS " + TABLE_USER;
 
     public UserDAO(Context context){
-        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        super(context, Commons.DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     @Override

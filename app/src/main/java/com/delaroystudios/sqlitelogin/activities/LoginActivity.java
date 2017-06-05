@@ -12,7 +12,7 @@ import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 
 import com.delaroystudios.sqlitelogin.R;
-import com.delaroystudios.sqlitelogin.helper.InputValidation;
+import com.delaroystudios.sqlitelogin.Validation.InputValidation;
 import com.delaroystudios.sqlitelogin.dao.UserDAO;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
